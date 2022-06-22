@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\图">
+      <UniqueIdentifier>{d9177170-c27d-4673-a488-4355f211326e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\暴力递归">
+      <UniqueIdentifier>{2395cea4-7e7f-422f-ac93-e18950b981c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\链表">
+      <UniqueIdentifier>{f31720d4-e0cb-497e-a69d-185797471e8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\二叉树">
+      <UniqueIdentifier>{090fdb61-16f5-4382-b6fe-a951099766bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\前缀树">
+      <UniqueIdentifier>{1890ffdd-96cf-4b9d-88e7-a59095e8f95e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\时间、空间复杂度">
+      <UniqueIdentifier>{824f0f54-d63b-466d-8398-592ab6444798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\堆排序、简单排序">
+      <UniqueIdentifier>{c4a0effb-bfcd-40ff-94ae-15aa3023edaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\贪心算法">
+      <UniqueIdentifier>{ec5fbaac-1fe2-4a54-a791-af345e4eadf9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Algorithm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>源文件\图</Filter>
+    </ClCompile>
+    <ClCompile Include="BestArrange.cpp">
+      <Filter>源文件\贪心算法</Filter>
+    </ClCompile>
+    <ClCompile Include="LessMoneySplitGold.cpp">
+      <Filter>源文件\贪心算法</Filter>
+    </ClCompile>
+    <ClCompile Include="贪心算法问题解决方法.cpp">
+      <Filter>源文件\贪心算法</Filter>
+    </ClCompile>
+    <ClCompile Include="计算时间复杂度.cpp">
+      <Filter>源文件\时间、空间复杂度</Filter>
+    </ClCompile>
+    <ClCompile Include="时间、空间复杂度.cpp">
+      <Filter>源文件\时间、空间复杂度</Filter>
+    </ClCompile>
+    <ClCompile Include="TrieTree.cpp">
+      <Filter>源文件\前缀树</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkList.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="listSort.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="Palindromes.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="单链表最难的一种题.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="链表剩下的两个题.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="binaryTree.cpp">
+      <Filter>源文件\二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="BSTree.cpp">
+      <Filter>源文件\二叉树</Filter>
+    </ClCompile>
+    <ClCompile Include="heapSort.cpp">
+      <Filter>源文件\堆排序、简单排序</Filter>
+    </ClCompile>
+    <ClCompile Include="mergeSort.cpp">
+      <Filter>源文件\堆排序、简单排序</Filter>
+    </ClCompile>
+    <ClCompile Include="quickSort.cpp">
+      <Filter>源文件\堆排序、简单排序</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertToLetterString.cpp">
+      <Filter>源文件\暴力递归</Filter>
+    </ClCompile>
+    <ClCompile Include="hanoi.cpp">
+      <Filter>源文件\暴力递归</Filter>
+    </ClCompile>
+    <ClCompile Include="Knapsack.cpp">
+      <Filter>源文件\暴力递归</Filter>
+    </ClCompile>
+    <ClCompile Include="printAllSubsquence.cpp">
+      <Filter>源文件\暴力递归</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseStackUsingRecursive.cpp">
+      <Filter>源文件\暴力递归</Filter>
+    </ClCompile>
+    <ClCompile Include="winerPoker.cpp">
+      <Filter>源文件\暴力递归</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BestArrange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LessMoneySplitGold.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TrieTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="listSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Palindromes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="binaryTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BSTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="heapSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mergeSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="quickSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertToLetterString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hanoi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Knapsack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="printAllSubsquence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseStackUsingRecursive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="winerPoker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
