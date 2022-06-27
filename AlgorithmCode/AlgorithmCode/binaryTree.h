@@ -23,7 +23,7 @@ typedef struct Info
 	int height;
 	Info(int _nodes, int _height) :
 		nodes(_nodes), height(_height) {}
-};
+}Info;
 
 //¶þ²æËÑË÷Ê÷½á¹¹£¨Binary search tree£©
 template<class T>

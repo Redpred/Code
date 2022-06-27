@@ -23,7 +23,7 @@ int ConvertToLetterString::process(string str, int i)//i是字符位置
 		//[0~9]是一种可能，也就是只管i位置。
 		int res = process(str, i + 1);
 		//如果能和i+1位置组合，那么就是[10~19]
-		if (i + 1 < str.size())
+		if ((i + 1) < str.size())
 		{
 			res += process(str, i + 2);
 		}
@@ -34,7 +34,7 @@ int ConvertToLetterString::process(string str, int i)//i是字符位置
 		//同'1'
 		int res = process(str, i + 1);
 		//这里要考虑i+1位置的数在[0~6]范围
-		if (i + 1 < str.size() && (str[i + 1] >= '0' && str[i + 1] <= '6'))
+		if ((i + 1) < str.size() && (str[i + 1] >= '0' && str[i + 1] <= '6'))
 		{
 			res += process(str, i + 2);
 		}

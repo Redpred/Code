@@ -11,8 +11,8 @@ public:
 	printAllSubsquence(string str);
 	void process(string str, int n, vector<char> res);
 	void process(string str, int n);
-	void process(string* str, int n, vector<string>* res);
+	void process(string& str, int n, vector<string>& res);
 	vector<string> function(string str);
-	void swap(string* str, int i, int j);
+	void swap(string& str, int i, int j);
 };
 

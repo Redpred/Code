@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stack>
 #include <vector>
-#include "hanoi.h"
+
 
 using namespace std;
 
@@ -18,7 +18,7 @@ int main()
 	//	arr[i] = (int)randomNumber;
 	// }
 
-	hanoi(3);
+	
 
 	system("pause");
 	return 0;

@@ -37,6 +37,18 @@
     <Filter Include="源文件\贪心算法">
       <UniqueIdentifier>{ec5fbaac-1fe2-4a54-a791-af345e4eadf9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\位图">
+      <UniqueIdentifier>{c5af77d9-9948-48fd-b006-e4a1ce72969a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\位图\布隆过滤器">
+      <UniqueIdentifier>{229cc805-da45-42d7-af02-f5549533cc8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\并查集">
+      <UniqueIdentifier>{b8b9aa30-4b75-463a-b12b-6c91c82f4579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\KMP">
+      <UniqueIdentifier>{37a818c6-c58d-4671-a75d-7a3bcab4b1f1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Algorithm.cpp">
@@ -111,6 +123,18 @@
     <ClCompile Include="winerPoker.cpp">
       <Filter>源文件\暴力递归</Filter>
     </ClCompile>
+    <ClCompile Include="NQueens.cpp">
+      <Filter>源文件\暴力递归</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMap.cpp">
+      <Filter>源文件\位图</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP.cpp">
+      <Filter>源文件\KMP</Filter>
+    </ClCompile>
+    <ClCompile Include="UnionFind.cpp">
+      <Filter>源文件\并查集</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graph.h">
@@ -165,6 +189,18 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="winerPoker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NQueens.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KMP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UnionFind.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

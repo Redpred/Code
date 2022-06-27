@@ -72,6 +72,7 @@ int LinkList::LocateElem(int e)
 		i++;
 	}
 	cout << "表中不存在指定元素" << endl;
+	return -1;
 }
 //取上一个元素
 bool LinkList::PriorElem(int cur_e, int* pre_e)

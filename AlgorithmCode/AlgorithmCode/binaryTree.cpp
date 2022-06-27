@@ -304,7 +304,7 @@ Info binaryTree::FT(BTNode* root)
 	Info rightData = FT(root->right);//返回右子树信息
 
 	int nodes = leftData.nodes + rightData.nodes + 1;//左子树左右节点数 + 右子树左右节点树 + 本节点数
-	int height = fmax(leftData.height, rightData.height) + 1;//左右子树最高子树的高度 + 本层高度
+	int height = max(leftData.height, rightData.height) + 1;//左右子树最高子树的高度 + 本层高度
 
 	return Info(nodes, height);//返回此根节点的树信息
 }

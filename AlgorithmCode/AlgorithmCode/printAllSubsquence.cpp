@@ -59,16 +59,16 @@ void printAllSubsquence::process(string str, int n)
 }
 //返回一个字符串的各种排序方式，同时剔除重复的
 //字符串str使用同一个内存空间，n代表字符位置，res代表存放字符串的容器，也保证同一个
-void printAllSubsquence::process(string* str, int n, vector<string>* res)
+void printAllSubsquence::process(string& str, int n, vector<string>& res)
 {
 	//base case
-	if (n == (*str).size())
+	if (n == str.size())
 	{
-		(*res).push_back((*str));//因为交换的原因，始终存入str即可
+		res.push_back(str);//因为交换的原因，始终存入str即可
 		return;
 	}
 	//从第0位置开始到n结束，交换的位置是从n开始到结束，这样就能有序
-	for (int j = n; j < (*str).size(); j++)
+	for (int j = n; j < str.size(); j++)
 	{
 		swap(str, n, j);
 		process(str, n + 1, res);
@@ -85,14 +85,14 @@ vector<string> printAllSubsquence::function(string str)
 	{
 		return res;
 	}
-	process(&str, 0, &res);//使用引用
+	process(str, 0, res);
 	return res;
 }
 //交换字符串中的两个字符
-void printAllSubsquence::swap(string* str, int i, int j)
+void printAllSubsquence::swap(string& str, int i, int j)
 {
-	char tmp = (*str)[i];
-	(*str)[i] = (*str)[j];
-	(*str)[j] = tmp;
+	char tmp = str[i];
+	str[i] = str[j];
+	str[j] = tmp;
 }
 
