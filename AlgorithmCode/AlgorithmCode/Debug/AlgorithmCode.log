@@ -1,0 +1,7 @@
+﻿  KMP.cpp
+D:\Code\AlgorithmCode\AlgorithmCode\KMP.cpp(14,12): warning C4018: “<”: 有符号/无符号不匹配
+D:\Code\AlgorithmCode\AlgorithmCode\KMP.cpp(14,29): warning C4018: “<”: 有符号/无符号不匹配
+D:\Code\AlgorithmCode\AlgorithmCode\KMP.cpp(54,11): warning C4018: “<”: 有符号/无符号不匹配
+  UnionFind.cpp
+  正在生成代码...
+  AlgorithmCode.vcxproj -> D:\Code\AlgorithmCode\Debug\AlgorithmCode.exe
