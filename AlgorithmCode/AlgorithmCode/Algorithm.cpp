@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stack>
 #include <vector>
-
+#include <string>
+#include "manacher.h"
 
 using namespace std;
 
@@ -18,7 +19,7 @@ int main()
 	//	arr[i] = (int)randomNumber;
 	// }
 
-	
+	manacher("abbascabbaxabbacsabba");
 
 	system("pause");
 	return 0;

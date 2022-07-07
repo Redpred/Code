@@ -46,8 +46,26 @@
     <Filter Include="源文件\并查集">
       <UniqueIdentifier>{b8b9aa30-4b75-463a-b12b-6c91c82f4579}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\KMP">
+    <Filter Include="源文件\一些题">
+      <UniqueIdentifier>{ef3c7d3a-b993-430f-b29e-e5967b4d1143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\一些题\KMP">
       <UniqueIdentifier>{37a818c6-c58d-4671-a75d-7a3bcab4b1f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\一些题\Manacher">
+      <UniqueIdentifier>{f6a026f7-1e27-4d5b-97bf-ef066c13d53c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\一些题\滑动窗口">
+      <UniqueIdentifier>{c89428d2-f729-47bd-927d-6f7ae023a39c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\一些题\单调栈">
+      <UniqueIdentifier>{2d68f7fe-ff54-49e5-af53-d0ba2dd9fbc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\一些题\树形DP">
+      <UniqueIdentifier>{36b6a44e-8fce-4f1a-84b7-84648659ce07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\一些题\Morris遍历">
+      <UniqueIdentifier>{2413aab7-f3dc-444b-ba2b-f9e573d1a9a4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -130,10 +148,13 @@
       <Filter>源文件\位图</Filter>
     </ClCompile>
     <ClCompile Include="KMP.cpp">
-      <Filter>源文件\KMP</Filter>
+      <Filter>源文件\一些题\KMP</Filter>
     </ClCompile>
-    <ClCompile Include="UnionFind.cpp">
+    <ClCompile Include="UnionFindSet.cpp">
       <Filter>源文件\并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="manacher.cpp">
+      <Filter>源文件\一些题\Manacher</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -200,7 +221,10 @@
     <ClInclude Include="KMP.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="UnionFind.h">
+    <ClInclude Include="UnionFindSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="manacher.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

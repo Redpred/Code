@@ -1,4 +1,16 @@
 ﻿  Algorithm.cpp
+  binaryTree.cpp
+  BitMap.cpp
+  ConvertToLetterString.cpp
+  Graph.cpp
+  KMP.cpp
+  LinkList.cpp
   NQueens.cpp
+  printAllSubsquence.cpp
+  TrieTree.cpp
+  UnionFind.cpp
   正在生成代码...
-  AlgorithmCode.vcxproj -> D:\Code\AlgorithmCode\x64\Debug\AlgorithmCode.exe
+Algorithm.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl UnionFind::UnionFindSet<int>::UnionFindSet<int>(class std::vector<int,class std::allocator<int> >)" (??0?$UnionFindSet@H@UnionFind@@QEAA@V?$vector@HV?$allocator@H@std@@@std@@@Z)，函数 main 中引用了该符号
+Algorithm.obj : error LNK2019: 无法解析的外部符号 "public: bool __cdecl UnionFind::UnionFindSet<int>::isSameSet(int,int)" (?isSameSet@?$UnionFindSet@H@UnionFind@@QEAA_NHH@Z)，函数 main 中引用了该符号
+Algorithm.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl UnionFind::UnionFindSet<int>::Union(int,int)" (?Union@?$UnionFindSet@H@UnionFind@@QEAAXHH@Z)，函数 main 中引用了该符号
+D:\Code\AlgorithmCode\x64\Debug\AlgorithmCode.exe : fatal error LNK1120: 3 个无法解析的外部命令
