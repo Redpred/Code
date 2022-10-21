@@ -1,0 +1,5 @@
+﻿  NetChatClient.cpp
+D:\Code\NetChatServer\NetChatClient\NetChatClient.cpp(40,18): warning C4305: “return”: 从“int”到“bool”截断
+D:\Code\NetChatServer\NetChatClient\NetChatClient.cpp(54,18): warning C4305: “return”: 从“int”到“bool”截断
+D:\Code\NetChatServer\NetChatClient\NetChatClient.cpp(64): warning C4715: “init”: 不是所有的控件路径都返回值
+  NetChatClient.vcxproj -> D:\Code\NetChatServer\Debug\NetChatClient.exe
